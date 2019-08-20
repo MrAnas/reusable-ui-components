@@ -1,0 +1,14 @@
+body {
+    .ui-paginator {
+        //  background-color: unset;
+        border: unset;
+        padding: 0;
+
+        .ui-paginator-pages {
+            .ui-paginator-page.ui-state-active {
+                background-color: #952d98;
+            }
+        }
+
+    }
+}

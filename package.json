@@ -1,0 +1,7 @@
+{
+    "name": "npmcssanas",
+    "version": "0.0.3",
+    "dependencies": {
+        "bootstrap": "^4.3.1"
+    }
+}
