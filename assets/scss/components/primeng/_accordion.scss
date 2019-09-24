@@ -1,14 +1,25 @@
 body {
     .ui-accordion {
         .ui-accordion-header:not(.ui-state-disabled).ui-state-active {
-            a {background: $secondary-theme-color !important;border-color:$secondary-theme-color !important }
-        }        
+            a {
+                background: map-get($theme-colors, 'secondary') !important;
+                border-color: map-get($theme-colors, 'secondary') !important
+            }
+        }
+
         .ui-accordion-header {
             &:hover {
-                a {background: $secondary-theme-color !important ;color: $white !important ;border-color:$secondary-theme-color !important}
+                a {
+                    background: map-get($theme-colors, 'secondary') !important;
+                    color: $white !important;
+                    border-color: map-get($theme-colors, 'secondary') !important
+                }
             }
-            a {background: $primery-theme-color;color: $white}
-        }        
+
+            a {
+                background: map-get($theme-colors, 'primary');
+                color: $white
+            }
+        }
     }
-} 
- 
+}

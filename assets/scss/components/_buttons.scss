@@ -1,0 +1,16 @@
+body .ui-button{
+    background-color: map-get($theme-colors, 'primary');
+    border: 1px solid map-get($theme-colors, 'primary');
+}
+
+body .ui-button:enabled:hover {
+    background-color: map-get($theme-colors, 'primary');
+    border-color: map-get($theme-colors, 'primary');
+}
+
+body .ui-button:enabled:active {
+    background-color: map-get($theme-colors, 'primary');
+    border-color: map-get($theme-colors, 'primary');
+}
+
+$enable-rounded: false;

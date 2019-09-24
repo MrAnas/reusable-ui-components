@@ -79,7 +79,7 @@ Rows and TotalRecords define how many pages the paginator should display. Pagina
 ```<p-paginator [rows]="10" [totalRecords]="100"></p-paginator>```
 
 To only Import in your accordion to your styles.scss:
--	@import '~node_modules/npmcssanas/assets/scss/components/priming/pagintation;
+```@import '~node_modules/npmcssanas/assets/scss/components/priming/pagintation;```
 
 
 

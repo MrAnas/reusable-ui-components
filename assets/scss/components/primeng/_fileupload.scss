@@ -1,0 +1,13 @@
+.ui-fileupload{
+    .ui-fileupload-buttonbar {
+        .ui-button{
+            background-color: map-get($theme-colors, 'primary');
+            border: 0px solid #ffff;
+
+        }
+    }
+}
+body .ui-button{
+    background-color: map-get($theme-colors, 'primary');
+    border: 1px solid map-get($theme-colors, 'primary');
+}
