@@ -1,7 +1,10 @@
+/* for font setup */
+body * {font-family:'din', serif;}
+
 @font-face {
     font-family: 'din';
-    src: url('assets/fonts/DINNext.eot');
-    src: url('assets/fonts/DINNext.eot?#iefix') format('embedded-opentype'), url('assets/fonts/DINNext.ttf') format('truetype'), url('assets/fonts/DINNext.woff') format('woff'), url('assets/fonts/DINNext.svg#DINNext') format('svg');
+    src: url('../fonts/DINNext.eot');
+    src: url('../fonts/DINNext.eot?#iefix') format('embedded-opentype'), url('../fonts/DINNext.ttf') format('truetype'), url('../fonts/DINNext.woff') format('woff'), url('../fonts/DINNext.svg#DINNext') format('svg');
     font-weight: normal;
     font-style: normal;
 }

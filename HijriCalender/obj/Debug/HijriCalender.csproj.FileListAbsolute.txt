@@ -1,0 +1,6 @@
+c:\users\ahalruhaimi\documents\visual studio 2013\Projects\HijriCalender\HijriCalender\bin\HijriCalender.dll.config
+c:\users\ahalruhaimi\documents\visual studio 2013\Projects\HijriCalender\HijriCalender\bin\HijriCalender.dll
+c:\users\ahalruhaimi\documents\visual studio 2013\Projects\HijriCalender\HijriCalender\bin\HijriCalender.pdb
+c:\users\ahalruhaimi\documents\visual studio 2013\Projects\HijriCalender\HijriCalender\obj\Debug\HijriCalender.csprojResolveAssemblyReference.cache
+c:\users\ahalruhaimi\documents\visual studio 2013\Projects\HijriCalender\HijriCalender\obj\Debug\HijriCalender.dll
+c:\users\ahalruhaimi\documents\visual studio 2013\Projects\HijriCalender\HijriCalender\obj\Debug\HijriCalender.pdb

@@ -1,6 +1,6 @@
 {
     "name": "dcc-ui-components",
-    "version": "0.0.9",
+    "version": "0.9.1",
     "dependencies": {
         "bootstrap": "^4.3.1",
         "node-sass": "^4.12.0"
@@ -10,5 +10,5 @@
     },
     "publishConfig": {
         "registry": "http://nexus.elm.sa:8081/repository/npm-private/"
-      }     
+    }
 }

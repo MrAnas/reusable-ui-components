@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>jQuery Calendars Datepicker</title>
+    <link rel="stylesheet" href="CalanderJS/css/jquery.calendars.picker.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <script src="CalanderJS/jquery.plugin.js"></script>
+    <script src="CalanderJS/jquery.calendars.js"></script>
+    <script src="CalanderJS/jquery.calendars.plus.js"></script>
+    <script src="CalanderJS/jquery.calendars.picker.js"></script>  
+    <script src="CalanderJS/jquery.calendars.picker-ar-DZ.js"></script>
+    <script src="CalanderJS/jquery.calendars.ummalqura.js"></script>
+<script>
+$(function() {
+    var calendar = $.calendars.instance('ummalqura');
+    // for english use :
+	//$('#popupDatepicker').calendarsPicker({calendar: calendar});
+	$('#popupDatepicker').calendarsPicker({
+	    showOnFocus: false,
+	    showTrigger: '<button type="button" class="trigger">' +
+        '<img src="CalanderJS/img/calendar.gif" alt="Popup"></button>', calendar: calendar
+	});
+});
+
+</script>
+
+</head>
+<body>
+<p> enter date : <input type="text" id="popupDatepicker">  </p>
+</body>
+</html>
