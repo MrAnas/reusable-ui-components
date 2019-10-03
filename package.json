@@ -1,9 +1,10 @@
 {
     "name": "dcc-ui-components",
-    "version": "0.9.1",
+    "version": "0.9.6",
     "dependencies": {
         "bootstrap": "^4.3.1",
-        "node-sass": "^4.12.0"
+        "node-sass": "^4.12.0",
+        "primeng": "^7.1.0"
     },
     "scripts": {
         "scss": "node-sass --watch assets/scss/elmUI.scss -o dist"
