@@ -1,6 +1,6 @@
 {
     "name": "dcc-ui-components",
-    "version": "0.9.6",
+    "version": "1.0.0",
     "dependencies": {
         "bootstrap": "^4.3.1",
         "node-sass": "^4.12.0",

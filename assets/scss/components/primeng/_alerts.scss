@@ -1,0 +1,72 @@
+.ui-messages {
+    @extend .alert;
+    position: relative;
+
+    [dir='ltr'] & {
+        padding: .7rem 1rem .5rem 4rem;
+    }
+
+    [dir='rtl'] & {
+        padding: .7rem 4rem .5rem 1rem;
+    }
+
+    &:before {
+        position: absolute;
+        font-family: 'Font Awesome 5 Pro';
+        text-align: center;
+        padding-top: 8px;
+        font-size: 20px;
+        content: "";
+        width: 50px;
+        height: 100%;
+        top: 0;
+        left: 0;
+
+        [dir='rtl'] & {
+            left: auto;
+            right: 0;
+        }
+    }
+}
+
+.ui-messages-success {
+    background-color: #EEFFEE;
+
+    &:before {
+        background-color: #D9F7D9;
+        content: '\f00c';
+    }
+}
+
+.ui-messages-info {
+    background-color: #EEF5FF;
+
+    &:before {
+        background-color: #E0EBF9;
+        content: '\f0eb';
+    }
+}
+
+.ui-messages-warn {
+    background-color: #FFFBEC;
+
+    &:before {
+        background-color: #F3EAC8;
+        content: '\f071';
+    }
+}
+
+.ui-messages-danger {
+    background-color: #FBEEEF;
+
+    &:before {
+        background-color: #FBE1E3;
+        content: '\f00d';
+    }
+}
+
+.ui-messages-danger.error {
+    &:before {
+        content: '\f06a';
+    }
+}

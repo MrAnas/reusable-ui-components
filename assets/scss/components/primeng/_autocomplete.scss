@@ -1,0 +1,30 @@
+.ui-autocomplete.ui-widget,
+.ui-autocomplete.ui-widget input{
+    width: 100%;
+    border: 0;
+}
+
+body .ui-autocomplete.ui-autocomplete-multiple .ui-autocomplete-multiple-container .ui-autocomplete-token{
+    background: map-get($theme-colors, 'primary');
+}
+body .ui-autocomplete.ui-autocomplete-multiple .ui-autocomplete-multiple-container{
+    width: 92%;
+    border-color: #d2d2d2!important;
+}
+body .ui-autocomplete-dropdown{
+    width: 8%!important;
+    background: #efefef;
+    border: 1px solid #ccc;
+    color:#a7a7a7;
+}
+body .ui-autocomplete-panel .ui-autocomplete-items .ui-autocomplete-list-item{
+    padding: 0;
+    .ui-helper-clearfix{
+        padding:0;
+        border-bottom: 1px solid #e4e4e4;
+        div{
+            margin: 0 !important;
+            padding: .5rem 1rem;
+        }
+    }
+}
